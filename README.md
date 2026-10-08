@@ -1,41 +1,67 @@
-# SharePal Gaming Gadgets — Frontend Assignment
+# SharePal Gaming Gadgets — Rental Page
 
-A responsive React/Vite recreation of SharePal's Bangalore Gaming Gadgets rental category page.
+A responsive recreation of the SharePal Gaming Gadgets rental page, built as a Software Engineer Fresher assignment.
 
-## Features
-- Responsive SharePal-style layout
-- Product data rendered from the supplied JSON
-- Product search and sorting
-- Category filtering
-- Wishlist interaction
-- Rental date selector
-- Out-of-stock handling
-- FAQ accordion
-- Reviews, trust section and footer
-- Mobile navigation
+## 🔗 Live Demo
 
-## Run locally
+[View Live Demo](https://sharepal-gaming-gadgets-clone-pied.vercel.app/)
 
-```bash
-npm install
-npm run dev
-```
+## 📌 Project Overview
 
-## Build
+This project recreates the Gaming Gadgets rental experience from SharePal with a focus on a clean, responsive, and interactive user experience.
 
-```bash
-npm run build
-```
+The page includes gaming consoles, games, racing accessories, and other gaming products with rental-focused interactions.
 
-## Deploy
+## ✨ Features
 
-Import this repository into Vercel or Netlify. No environment variables are required.
+- SharePal-inspired responsive UI
+- Gaming Gadgets rental product listing
+- Product search
+- Category navigation
+- Product filtering and sorting
+- Price and rating filters
+- Availability filtering
+- Rental delivery and pickup date selection
+- Dynamic rental pricing
+- Wishlist functionality
+- Shopping cart
+- Cart quantity controls
+- Coupon functionality
+- Login / signup modal
+- Chat support interface
+- Customer reviews section
+- Animated reviews marquee
+- FAQ section
+- Responsive design
+- Product availability states
+- Interactive product cards
+- Sticky rental-date and cart actions
 
-## Notes
-Product images are loaded from SharePal's public image CDN because the assignment supplied image URLs in the product data.
+## 🛠️ Tech Stack
 
-### Final interaction pass
-- SharePal-style login/signup modal with WhatsApp number validation
-- Full lower SEO/category footer content
-- Cart quantity, delete, coupons, totals and login-to-checkout flow
-- Continuous review marquee
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
+- Vercel
+
+## 📂 Project Structure
+
+```text
+sharepal-gaming-gadgets/
+│
+├── public/
+├── src/
+│   ├── data/
+│   │   └── products.js
+│   ├── main.jsx
+│   └── styles.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
